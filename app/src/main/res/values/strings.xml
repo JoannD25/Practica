@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Practica</string>
+    <string name="title">Ciclo de vida de una aplicacion</string>
+    <string name="editTextNumberOne">Ingrese un numero</string>
+    <string name="editTextNumberTwo">Ingrese otro numero</string>
+    <string name="textViewResult">Resultado</string>
+
+    <string name="buttonSumar">Sumar</string>
+    <string name="buttonRestar">Restar</string>
+    <string name="buttonMultiplicar">Multiplicar</string>
+    <string name="buttonSecondActivity">Segunda Actividad</string>
+
+    <string name="buttonNavegador">Mostrar Navegador</string>
+    <string name="buttonLlamada">Mostrar Llamada</string>
+    <string name="buttonUbicacion">Mostrar Ubicacion</string>
+
+</resources>

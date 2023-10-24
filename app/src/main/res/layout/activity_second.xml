@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity_second">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ciclo de Vida de una Actividad"
+        android:textColorHint="#BD2424"
+        tools:ignore="HardcodedText"
+        tools:text="@string/title" />
+
+    <EditText
+        android:id="@+id/editTextNumberOne"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/editTextNumberOne"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:textColorHint="#8D6E63"
+        tools:ignore="LabelFor,SpeakableTextPresentCheck,VisualLintTextFieldSize" />
+
+    <EditText
+        android:id="@+id/editTextNumberTwo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/editTextNumberTwo"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:textColorHint="#8D6E63"
+        tools:ignore="LabelFor,SpeakableTextPresentCheck,VisualLintTextFieldSize" />
+
+    <TextView
+        android:id="@+id/textViewResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0"
+        tools:ignore="HardcodedText"
+        tools:text="@string/textViewResult" />
+
+    <Button
+        android:id="@+id/buttonSumar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickSumar"
+        android:text="@string/buttonSumar"
+        tools:ignore="HardcodedText,DuplicateSpeakableTextCheck,VisualLintButtonSize" />
+
+    <Button
+        android:id="@+id/buttonRestar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickRestar"
+        android:text="@string/buttonRestar"
+        tools:ignore="HardcodedText,VisualLintButtonSize" />
+
+    <Button
+        android:id="@+id/buttonDividir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickMultiplicar"
+        android:text="@string/buttonMultiplicar"
+        tools:ignore="HardcodedText,VisualLintButtonSize" />
+
+    <Button
+        android:id="@+id/buttonSecondActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickSecondActivity"
+        android:text="@string/buttonSecondActivity"
+        tools:ignore="HardcodedText,VisualLintButtonSize" />
+</LinearLayout>
